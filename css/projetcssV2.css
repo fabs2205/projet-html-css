@@ -1,0 +1,326 @@
+/* header */
+
+@media  screen and (max-width: 768px) {
+  
+    .titre {
+        top: 15%;
+    }
+
+h1{
+    font-size: medium;
+}
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0%;
+    }
+    .gauche  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .gauche #logo {
+        padding: 0px;
+    }
+    .outils{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.bvsf {
+    display: none;
+}
+
+.mediascreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ecrantel {
+    width: 250px;
+}
+
+.rretour #retour {
+    width: 50px;
+    padding: 10px;
+}
+.rii #ri {
+    width: 150px;
+}
+.tube #you {
+    width: 100px;
+}
+}
+
+@media screen and (min-width: 769px) {
+    .mediascreen {
+        display: none;
+    }
+}
+
+
+
+
+header {
+    background-color: rgba(111, 111, 111, 0.911);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu .nav-bar {
+    display: flex;
+   justify-content: space-between;
+}
+
+#logo {
+    width: 50px;
+    padding-left: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.nav-bar .nav-link {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-bar .nav-link li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-bar .nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+#html {
+    color:#E34F26;
+}
+
+#csss {
+    color: #1572B6;
+}
+
+#js {
+    color: #F7DF1E;
+}
+
+/* fin header*/
+
+/* presentation*/
+
+.presentation {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+
+.titre {
+    position: absolute ;
+    top: 45%;
+    left: 50%;
+    color: white;
+    font-size:x-large;
+}
+
+#pq {
+ width: 100%;
+}
+
+/*fin presentation*/
+
+/*section 1*/
+
+.sectiondeux {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectiondeux h2 {
+    color: rgba(111, 111, 111, 0.911);
+}
+
+.bvsf {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    
+}
+
+.left-part {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/Front-End-vs-Back-End.png);
+    background-position: left;
+    background-size: 200%;
+    transform: translateX(0%);
+    transition: transform 1s ease;
+}
+
+.right-part {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/Front-End-vs-Back-End.png);
+    background-position: right;
+    background-size: 200%;
+    transform: translateX(0%);
+    transition: transform 1s ease;
+}
+
+.bvsf:hover .left-part:hover .right-part {
+    transform: translateX(100%);
+}
+
+.bvsf:hover .right-part:hover .left-part {
+    transform: translateX(-100%);
+}
+
+.left-part:hover {
+    transform: translateX(-100%);
+}
+
+.right-part:hover {
+    transform: translateX(100%);
+}
+
+#fvsb {
+    width: 450px;
+}
+
+.bla {
+    text-align: center;
+}
+
+#fe {
+    color: rgb(16, 16, 164);
+}
+
+#be {
+    color: rgb(238, 122, 13);
+}
+
+.blabla {
+    text-align: center;
+}
+
+/*fin section 1*/
+
+/*section 2 */
+
+h2 {
+    text-align: center;
+    color:rgba(111, 111, 111, 0.911);
+}
+
+.outils {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.outils article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+.outils img {
+    width: 33%;
+    height: 137.83px;
+}
+
+
+
+#exemplehtml {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(243, 129, 16);
+}
+
+#exemplecss {
+    text-decoration: none;
+    list-style: none;
+    color: blue;
+}
+
+#exemplejs {
+    color: rgb(189, 189, 16);
+}
+
+/*fin section 2 */
+
+/*footer*/
+
+#vsc {
+    text-decoration: none;
+    color: rgb(18, 150, 202);
+}
+
+#google {
+    text-decoration: none;
+    color: rgb(23, 202, 23);
+}
+
+#github {
+    text-decoration: none;
+    color: rgb(136, 63, 203);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(111, 111, 111, 0.911);
+}
+
+#retour {
+    width: 100px;
+    padding-left: 45%;
+}
+
+#ri {
+    width: 300px;
+}
+
+#you {
+    border: none;
+    width: 200px;
+}
+
+/*fin footer*/

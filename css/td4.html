@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+
+<body>
+    <header>
+        <h1><Strong>Formulaire Type</Strong></h1>
+    </header>
+
+    <main>
+
+        <form action="#">
+            <section>
+                <h2>Coordonnées</h2>
+                <div>
+                    <label for="name"><strong>Nom</strong></label>
+                    <br>
+                    <input id="name" type="text">
+                    <div>
+                        <label for="firstname"><strong>Prenom</strong></label>
+                        <br>
+                        <input id="firstname" type="text">
+                        <br>
+                    </div>
+
+
+                </div>
+                <br>
+                <div>
+                    <label for="doc"><strong>je desire recevoir une documentation</strong></label>
+                    <input type="checkbox" id="doc">
+                </div>
+                <div>
+                    <br>
+                    <label for="pays"><strong>Pays</strong></label>
+                    <select id="pays">
+                        <option value="1">France</option>
+                        <option value="2">Bengladesh</option>
+                    </select>
+
+                </div>
+                
+
+                <div>
+                    <br>
+                    <span><strong>Sexe</strong></span>
+                    <label for="male">homme</label>
+                    <input type="radio" name="interest" id="male">
+                    <label for="female">femme</label>
+                    <input type="radio" name="interest" id="female">
+                </div>
+            </section>
+                
+
+                <section>
+                    <h2>Domaine(s) d'activité</h2>
+                    
+                    <p>Vous pouvez en choisir plus qu'un...</p>
+                        <div>
+                            
+                            <label for="pedag">Pedagogie</label>
+                            <input type="checkbox" name="interest" value="pedagogie" id="pedag">
+                            <label for="psy">Psycholohie</label>
+                            <input type="checkbox" name="interest" id="psy">
+                            <label for="inf">Informatique</label>
+                            <input type="checkbox" name="interest" id="inf">
+                            <label for="other">Autre</label>
+                            <input type="checkbox" name="interest" id="other">
+
+
+
+                        </div>
+                        <div>
+                            <p><strong>Commentaires</strong></p>
+                            <label for="comment">si vous le voulez, vous pouvez décrires vos activités ou interets</label>
+                            <br>
+                            <textarea name="comment" id="comment"></textarea>
+                        </div>
+                    </section>
+                    <div>
+                        <button type="reset">effacer les données</button>
+                        <button type="submit">envoyer les données</button>
+                        </div>
+                    
+                
+
+
+
+
+
+
+
+                
+
+                
+        </form>
+
+
+
+            
+    </main>
+
+</body>
+
+</html>

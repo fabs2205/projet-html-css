@@ -1,0 +1,13 @@
+.reduire video {
+    width: 30%;
+}
+
+.reduire {
+    display: flex ;
+  justify-content:  center;
+}
+
+h1 {
+    color: #E34F26;
+    text-align: center;
+}

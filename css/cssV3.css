@@ -1,0 +1,16 @@
+.moins video {
+    width: 30%;
+}
+
+.moins {
+    display: flex ;
+  justify-content:  center;
+}
+
+h1 {
+    color: #1572B6;
+    text-align: center;
+  
+}
+
+

@@ -1,0 +1,37 @@
+.logogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+    
+.logogo article {
+    width: 33%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logogo img {
+    width: 20px;
+}
+
+.sectiondeux {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+
+h1 {
+    color: rgba(111, 111, 111, 0.911);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
